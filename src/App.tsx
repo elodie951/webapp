@@ -1,5 +1,4 @@
 import React from 'react';
-//import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src="elodie.JPG" className="App-logo" alt="logo" />
         <p>
-          Elodie's webapp lives here! <code>src/App.tsx</code>
+          Elodie's webapp lives here <code>src/App.tsx</code>
         </p>
         <a
           className="App-link"
