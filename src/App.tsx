@@ -9,7 +9,7 @@ function App() {
         <p>
           Elodie's webapp lives here.  <code>src/App.tsx</code>
         </p>
-        <p>My first Web app!</p>
+        <p>Welcome to our website!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
