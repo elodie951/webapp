@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="elodie.JPG" className="App-logo" alt="logo" />
+        
         <p>
           Elodie's webapp lives here. <code>src/App.tsx</code>
         </p>
