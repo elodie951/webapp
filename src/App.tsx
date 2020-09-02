@@ -1,30 +1,12 @@
 import React from 'react';
-import { Button, Tooltip } from '@material-ui/core';
+import { Button, Tooltip, Container, Typography, Box } from '@material-ui/core';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Elodie's webapp lives here. <code>src/App.tsx</code>
-        </p>
-        <p>Welcome to our website!</p>
-        <Tooltip title="my buttton tooltip">
-          <Button variant="contained" color="primary">
-            Primary
-          </Button>
-        </Tooltip>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth="xl">
+      <Typography variant="h1" align="center"> Welcome To The Website Brain Freeze!</Typography>
+      <Typography variant="h4" align="center"> This website will tell you everything about our new app, Click the botton to continue.</Typography>
+    </Container>
   );
 }
 
