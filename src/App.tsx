@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import { Button, Tooltip } from '@material-ui/core';
 
 function App() {
   return (
@@ -7,9 +7,14 @@ function App() {
       <header className="App-header">
         <img src="elodie.JPG" className="App-logo" alt="logo" />
         <p>
-          Elodie's webapp lives here.  <code>src/App.tsx</code>
+          Elodie's webapp lives here. <code>src/App.tsx</code>
         </p>
         <p>Welcome to our website!</p>
+        <Tooltip title="my buttton tooltip">
+          <Button variant="contained" color="primary">
+            Primary
+          </Button>
+        </Tooltip>
         <a
           className="App-link"
           href="https://reactjs.org"
